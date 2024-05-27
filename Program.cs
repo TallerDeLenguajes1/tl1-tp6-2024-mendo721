@@ -26,6 +26,7 @@ if (resultado)
     Console.WriteLine($"El invertido del numero ingresado es: {aux}");
 }
 
+//calculadora v1
 bool calculadora = true;
 while (calculadora)
 {
@@ -79,6 +80,8 @@ while (calculadora)
         calculadora = false;
     }
 }
+
+//calculadora v2
 Console.WriteLine("Ingrese un numero");
 string text = Console.ReadLine();
 int numero;
